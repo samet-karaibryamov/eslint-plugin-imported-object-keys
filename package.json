@@ -1,0 +1,32 @@
+{
+  "name": "@einismotic/eslint-plugin-imported-object-keys",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samet-karaibryamov/eslint-plugin-imported-object-keys.git"
+  },
+  "keywords": [
+    "eslint",
+    "imported",
+    "object",
+    "keys"
+  ],
+  "author": "Samet Karaibryamov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samet-karaibryamov/eslint-plugin-imported-object-keys/issues"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "homepage": "https://github.com/samet-karaibryamov/eslint-plugin-imported-object-keys#readme",
+  "peerDependencies": {
+    "eslint": "^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0",
+    "eslint-plugin-import": "^2.0.0"
+  }
+}
