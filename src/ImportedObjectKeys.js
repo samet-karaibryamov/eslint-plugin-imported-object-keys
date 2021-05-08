@@ -1,8 +1,8 @@
 'use strict'
 
-import fs from 'fs'
-import parse from 'eslint-module-utils/parse'
-import resolve from 'eslint-module-utils/resolve'
+const fs = require('fs')
+const parse = require('eslint-module-utils/parse').default
+const resolve = require('eslint-module-utils/resolve').default
 
 const exportedObjects = {}
 const registerExportedObjects = (importNode, context) => {
@@ -22,7 +22,7 @@ const registerExportedObjects = (importNode, context) => {
   })
 }
 
-export default {
+module.exports = {
   meta: {
     type: 'problem',
 

@@ -1,7 +1,7 @@
 'use strict'
 
-import ImportedObjectKeys from './ImportedObjectKeys'
+const ImportedObjectKeys = require('./ImportedObjectKeys')
 
-export const rules = {
+module.exports.rules = {
   'imported-object-keys': ImportedObjectKeys,
-};
+}
